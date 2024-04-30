@@ -1,0 +1,58 @@
+<mxfile host="Electron" modified="2024-04-25T12:58:41.079Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.1 Chrome/112.0.5615.204 Electron/24.6.1 Safari/537.36" etag="nOi_7huPprrmJRjjVKJQ" version="21.6.1" type="device">
+  <diagram name="Página-1" id="WSF_PkQRwcGhOy7-B661">
+    <mxGraphModel dx="637" dy="375" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Vc7gr5wjoWEhBDmWVtSM-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="380" width="390" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="Vc7gr5wjoWEhBDmWVtSM-1" value="Aplicación que permite consulatar los vehiculos de un concesionario a un usuario Estandar o Usuario Administrador con permiso. Cuando consulta el vehículo, se muestran los datos y opcionalmente se pueden imprimir." style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="160" y="40" width="560" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Vc7gr5wjoWEhBDmWVtSM-2" value="Pepe / Usuario Estandar" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="330" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vc7gr5wjoWEhBDmWVtSM-4" value="Manolo&amp;nbsp;/ Usuario Admin&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="510" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vc7gr5wjoWEhBDmWVtSM-5" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Vc7gr5wjoWEhBDmWVtSM-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="390" y="400" as="sourcePoint" />
+            <mxPoint x="245" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vc7gr5wjoWEhBDmWVtSM-6" value="Consultar &lt;br&gt;Vehiculo" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="414" width="92" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="Vc7gr5wjoWEhBDmWVtSM-7" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vc7gr5wjoWEhBDmWVtSM-2" target="Vc7gr5wjoWEhBDmWVtSM-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="480" as="sourcePoint" />
+            <mxPoint x="470" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vc7gr5wjoWEhBDmWVtSM-9" value="Mostrar&lt;br&gt;datos" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="414" width="92" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="Vc7gr5wjoWEhBDmWVtSM-10" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="512" y="436.71" as="sourcePoint" />
+            <mxPoint x="622" y="436.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vc7gr5wjoWEhBDmWVtSM-11" value="&amp;lt;&amp;lt;extends&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vc7gr5wjoWEhBDmWVtSM-12" target="Vc7gr5wjoWEhBDmWVtSM-9">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="560" y="470" as="sourcePoint" />
+            <mxPoint x="560" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vc7gr5wjoWEhBDmWVtSM-12" value="Imprimir datos" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="517" width="92" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="Vc7gr5wjoWEhBDmWVtSM-15" value="Sistema de consula de vehiculos" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="590" y="345" width="200" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

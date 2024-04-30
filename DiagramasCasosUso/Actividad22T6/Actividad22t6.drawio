@@ -1,0 +1,58 @@
+<mxfile host="Electron" modified="2024-04-29T12:15:34.632Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.1 Chrome/112.0.5615.204 Electron/24.6.1 Safari/537.36" etag="C3Ly4qH3AJ9-RM2rV3w4" version="21.6.1" type="device">
+  <diagram name="Página-1" id="-F4y7GV19dfyCz0Gktft">
+    <mxGraphModel dx="928" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GFObmaUZ7Pv_83MOoxog-1" value="Usuario" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="300" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GFObmaUZ7Pv_83MOoxog-2" value="Marcar valores" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="170" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GFObmaUZ7Pv_83MOoxog-3" value="Consultar valores" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="230" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GFObmaUZ7Pv_83MOoxog-4" value="Actualizar valores" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="420" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GFObmaUZ7Pv_83MOoxog-5" value="Servidor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="400" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GFObmaUZ7Pv_83MOoxog-8" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GFObmaUZ7Pv_83MOoxog-5" target="GFObmaUZ7Pv_83MOoxog-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="340" as="sourcePoint" />
+            <mxPoint x="700" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GFObmaUZ7Pv_83MOoxog-9" value="Informar al usuario" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="530" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GFObmaUZ7Pv_83MOoxog-11" value="&amp;lt;&amp;lt;extends&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="GFObmaUZ7Pv_83MOoxog-9" target="GFObmaUZ7Pv_83MOoxog-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="650" y="480" as="sourcePoint" />
+            <mxPoint x="810" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GFObmaUZ7Pv_83MOoxog-12" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GFObmaUZ7Pv_83MOoxog-1" target="GFObmaUZ7Pv_83MOoxog-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="430" as="sourcePoint" />
+            <mxPoint x="800" y="455" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GFObmaUZ7Pv_83MOoxog-13" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GFObmaUZ7Pv_83MOoxog-1" target="GFObmaUZ7Pv_83MOoxog-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="330" as="sourcePoint" />
+            <mxPoint x="790" y="205" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GFObmaUZ7Pv_83MOoxog-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="670" y="160" width="290" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="GFObmaUZ7Pv_83MOoxog-15" value="Sistema personal de bolsa" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="800" y="130" width="160" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

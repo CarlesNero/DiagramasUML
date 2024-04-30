@@ -1,0 +1,1 @@
+Aplicación que permite consulatar los vehiculos de un concesionario a un usuario Estandar o Usuario Administrador con permiso. Cuando consulta el vehículo, se muestran los datos y opcionalmente se pueden imprimir.

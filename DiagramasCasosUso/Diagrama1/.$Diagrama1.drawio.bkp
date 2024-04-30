@@ -1,0 +1,13 @@
+<mxfile host="Electron" modified="2024-04-25T12:44:01.063Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.1 Chrome/112.0.5615.204 Electron/24.6.1 Safari/537.36" etag="iF2k5M-Zb0oHnD532D2R" version="21.6.1" type="device">
+  <diagram name="Página-1" id="WSF_PkQRwcGhOy7-B661">
+    <mxGraphModel dx="1114" dy="656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Vc7gr5wjoWEhBDmWVtSM-1" value="Aplicación que permite consulatar los vehiculos de un concesionario a un usuario Estandar o Usuario Administrador con permiso. Cuando consulta el vehículo, se muestran los datos y opcionalmente se pueden imprimir." style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="160" y="40" width="560" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
