@@ -1,0 +1,13 @@
+<mxfile host="Electron" modified="2024-05-15T11:00:56.077Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.1 Chrome/112.0.5615.204 Electron/24.6.1 Safari/537.36" etag="nwfePYR2XvYLM3ZT8CRN" version="21.6.1" type="device">
+  <diagram name="Página-1" id="GbYh5oVNpay7846bMufv">
+    <mxGraphModel dx="1098" dy="640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TLQlHVIaCQeHp-IoShQi-1" value="&lt;div&gt;Crear el diagrama de secuencia para la compra de una entrada para una película de cine.&lt;/div&gt;&lt;div&gt;El cliente se dirige a la taquilla y solicita la lista de asientos disponibles, y elegirá uno.&lt;/div&gt;&lt;div&gt;Entonces, el sistema mostrará al cliente el importe a pagar, solicitando que lo ingrese y le&lt;/div&gt;&lt;div&gt;devolverá su cambio.&lt;/div&gt;&lt;div&gt;Finalmente, el cliente pulsará el botón imprimir entrada, lo que hará que el sistema la&lt;/div&gt;&lt;div&gt;imprima y se la entregue al cliente.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="83" width="500" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
